@@ -3,17 +3,16 @@
 ## Features
 
 * User Registration
-* User Login
-* User Logout
+* User Login & Logout
+* Password Hashing using `password_hash()`
 * Session Management
-* Password Hashing
-* CRUD Operations
+* User Dashboard
+* CRUD Operations (Create, Read, Update, Delete)
 * Profile Picture Upload
-* File Validation (JPG, JPEG, PNG)
+* File Type Validation (JPG, JPEG, PNG)
 * File Size Validation (Max 2MB)
 * Delete Confirmation Popup
-* Dashboard UI
-* Users Management Page
+* Responsive UI Design
 
 ## Technologies Used
 
@@ -23,33 +22,20 @@
 * CSS
 * XAMPP
 
-## Database
+## Security Features
 
-Database Name:
+* Prepared Statements (`mysqli_prepare`)
+* Password Hashing (`password_hash`)
+* Session-Based Authentication
+* Server-Side Input Validation
 
-internship_db
+## Project Deliverables
 
-Table:
-
-users
-
-Columns:
-
-* id
-* fullname
-* email
-* password
-* profile_pic
-* created_at
-
-## How to Run
-
-1. Start Apache and MySQL in XAMPP.
-2. Import the database into phpMyAdmin.
-3. Place the project folder inside htdocs.
-4. Open:
-
-http://localhost/ApexPlanet-Internship/Task3-User-Management/
+* User Authentication System
+* User Management System
+* Profile Management
+* Database Integration
+* Styled User Interface
 
 ## Author
 
